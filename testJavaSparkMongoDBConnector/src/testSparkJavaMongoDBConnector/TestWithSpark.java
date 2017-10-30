@@ -99,8 +99,5 @@ public final class TestWithSpark {
 	jsc.close();
 	
     }
-    
-   
 
-	
 }
