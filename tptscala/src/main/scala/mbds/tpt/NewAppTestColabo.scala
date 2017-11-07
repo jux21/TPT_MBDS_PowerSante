@@ -53,10 +53,13 @@ object NewAppTestColabo {
 
 
     // 1) On récupére les objets de l'utilisateur albert
-    var objetsUtilisateur = dataframeParcours.select("product_id").where("visitor_id= " + NOTRE_VISITOR).distinct().limit(3).show(false)
+    var objetsUtilisateur = dataframeParcours.select("product_id").where("visitor_id= " + NOTRE_VISITOR).distinct().limit(3)
+    objetsUtilisateur.show(false)
+    objetsUtilisateur
 
+    // ?? Utiliser un foreach sur le dataset pour avec une requete dedans ??
     // 2) pour ces objets on récupère les id de tous les users
-    //objetsUtilisateur.
+
     dataframeParcours.show(false)
   }
 
