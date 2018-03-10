@@ -1,0 +1,10 @@
+
+
+import static spark.Spark.*;
+
+public class test_webservice {
+    public static void main(String[] args) {
+    	port(8666);
+        get("/predict", (req, res) -> "Hello World");
+    }
+}
