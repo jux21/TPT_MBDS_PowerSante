@@ -1,6 +1,6 @@
 # README #
 
-Recommandation System with Spark Scala and mongoDB
+Recommandation System with Spark Scala and mongoDB (dev with Apache Zeppelin)
 
 Missing Data with missingno Python
 
