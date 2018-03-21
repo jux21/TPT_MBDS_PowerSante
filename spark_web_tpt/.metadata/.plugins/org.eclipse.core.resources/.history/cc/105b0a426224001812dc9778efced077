@@ -1,0 +1,13 @@
+
+
+import static spark.Spark.*;
+
+import org.apache.log4j.BasicConfigurator;
+
+public class test_webservice {
+    public static void main(String[] args) {
+    	BasicConfigurator.configure();
+    	port(88996);
+        get("/predict", (req, res) -> "Hello World");
+    }
+}
