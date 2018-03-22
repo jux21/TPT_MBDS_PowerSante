@@ -1,2 +1,3 @@
-/.metadata/
-/.recommenders/
+*/.metadata/*
+*/.recommenders/*
+spark_web_tpt/.recommenders/*
