@@ -1,5 +1,7 @@
 package mbds.tpt
 
+import javax.jws.WebService
+
 import com.mongodb.spark._
 import com.mongodb.spark.config.ReadConfig
 import org.apache.spark.{SparkConf, SparkContext}
@@ -12,6 +14,12 @@ import org.apache.spark.sql.functions._
 object App {
 
     def main(args: Array[String]) {
+
+      // Mise en place du modèle de données ...
+
+
+      // Lancement du Web Service ...
+      var webService = new WebService()
 
       val databaseName = "tpt_power_sante"
       var collectionName = "parcours"

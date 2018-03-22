@@ -1379,3 +1379,1473 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag nam
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-11 15:57:03.455
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2018-03-12 13:19:15.575 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-03-12 13:19:47.254
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Karl'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-12 13:19:52.247
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-12 13:19:52.254
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-12 13:19:54.368
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-12 13:19:54.375
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-12 13:19:55.343
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-12 13:19:55.346
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-12 13:21:34.722
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-12 13:21:34.732
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-12 13:21:37.316
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-12 13:21:37.318
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2018-03-12 15:35:52.433 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-03-12 15:36:05.969
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Karl'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-12 15:37:42.966
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-12 15:37:42.986
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-compiler\2.11.0\scala-compiler-2.11.0.jar
+!SESSION 2018-03-20 13:45:57.818 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-03-20 13:46:14.831
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Karl'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.osgi 4 0 2018-03-20 13:46:28.596
+!MESSAGE Error saving on update
+!STACK 0
+java.io.IOException: Espace insuffisant sur le disque
+	at java.io.FileOutputStream.writeBytes(Native Method)
+	at java.io.FileOutputStream.write(FileOutputStream.java:326)
+	at org.eclipse.osgi.storagemanager.ManagedOutputStream.write(ManagedOutputStream.java:100)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.write(BufferedOutputStream.java:95)
+	at java.io.DataOutputStream.writeInt(DataOutputStream.java:200)
+	at org.eclipse.osgi.container.ModuleDatabase$Persistence.writeMap(ModuleDatabase.java:1424)
+	at org.eclipse.osgi.container.ModuleDatabase$Persistence.store(ModuleDatabase.java:1015)
+	at org.eclipse.osgi.container.ModuleDatabase.store(ModuleDatabase.java:864)
+	at org.eclipse.osgi.storage.Storage.save0(Storage.java:1043)
+	at org.eclipse.osgi.storage.Storage.save(Storage.java:1011)
+	at org.eclipse.osgi.internal.framework.StorageSaver$StorageSaverTask.run(StorageSaver.java:28)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.eclipse.osgi 4 0 2018-03-20 13:46:58.692
+!MESSAGE Error saving on update
+!STACK 0
+java.io.IOException: Espace insuffisant sur le disque
+	at java.io.FileOutputStream.writeBytes(Native Method)
+	at java.io.FileOutputStream.write(FileOutputStream.java:326)
+	at org.eclipse.osgi.storagemanager.ManagedOutputStream.write(ManagedOutputStream.java:100)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.write(BufferedOutputStream.java:95)
+	at java.io.DataOutputStream.writeInt(DataOutputStream.java:198)
+	at org.eclipse.osgi.container.ModuleDatabase$Persistence.writeString(ModuleDatabase.java:1636)
+	at org.eclipse.osgi.container.ModuleDatabase$Persistence.writeMap(ModuleDatabase.java:1432)
+	at org.eclipse.osgi.container.ModuleDatabase$Persistence.store(ModuleDatabase.java:1015)
+	at org.eclipse.osgi.container.ModuleDatabase.store(ModuleDatabase.java:864)
+	at org.eclipse.osgi.storage.Storage.save0(Storage.java:1043)
+	at org.eclipse.osgi.storage.Storage.save(Storage.java:1011)
+	at org.eclipse.osgi.internal.framework.StorageSaver$StorageSaverTask.run(StorageSaver.java:28)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:47:57.269
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:47:57.274
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:47:59.638
+!MESSAGE The POM for org.mongodb.spark:mongo-spark-connector_2.10:jar:2.0.1 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:48:00.372
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:48:00.378
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:48:01.174
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:48:01.178
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:48:17.019
+!MESSAGE The POM for org.mongodb.spark:mongo-spark-connector_2.11:jar:2.0.1 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:48:17.355
+!MESSAGE The POM for org.mongodb.spark:mongo-spark-connector_2.11:jar:2.0.1 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:48:17.659
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:48:17.662
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:49:02.840
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:49:02.841
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:49:05.518
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:49:05.521
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:49:06.550
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:49:06.552
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:49:07.108
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:49:07.110
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:49:47.098
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:49:47.102
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:49:49.018
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\spark\spark-network-common_2.11\2.0.0\spark-network-common_2.11-2.0.0.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:49:49.035
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:49:49.039
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-compiler\2.11.0\scala-compiler-2.11.0.jar
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:49:57.582
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:49:57.584
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:50:02.440
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:50:02.442
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:50:13.281
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:50:13.283
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:50:13.727
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\hadoop\hadoop-common\2.6.5\hadoop-common-2.6.5.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:50:13.758
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\hadoop\hadoop-hdfs\2.6.5\hadoop-hdfs-2.6.5.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:50:13.839
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.51\bcprov-jdk15on-1.51.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:50:13.863
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:50:13.868
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-compiler\2.11.0\scala-compiler-2.11.0.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:50:13.918
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\spark\spark-catalyst_2.11\2.2.0\spark-catalyst_2.11-2.2.0.jar
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:50:13.953
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:50:13.955
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:50:14.341
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:50:14.342
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:51:04.323
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:51:04.325
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:52:14.730
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:52:14.732
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:52:16.473
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:52:16.474
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:52:19.371
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:52:19.373
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:52:32.143
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:52:32.146
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:52:32.328
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\hadoop\hadoop-common\2.6.5\hadoop-common-2.6.5.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:52:32.341
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\hadoop\hadoop-hdfs\2.6.5\hadoop-hdfs-2.6.5.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:52:32.369
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.51\bcprov-jdk15on-1.51.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:52:32.384
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:52:32.388
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-compiler\2.11.0\scala-compiler-2.11.0.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:52:32.428
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\spark\spark-catalyst_2.11\2.2.0\spark-catalyst_2.11-2.2.0.jar
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:52:32.721
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:52:32.723
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:52:33.110
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:52:33.111
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:52:47.381
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:52:47.384
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:53:40.323
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:53:40.325
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:53:41.830
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:53:41.832
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:53:56.270
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:53:56.271
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:54:03.604
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:54:03.606
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:54:10.517
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:54:10.518
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:54:14.266
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:54:14.268
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:54:26.898
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:54:26.899
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:54:44.825
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:54:44.827
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:54:44.994
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:54:44.996
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:54:45.514
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:54:45.580
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:57:10.066
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:57:10.069
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:57:16.207
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:57:16.208
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:57:19.125
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\hadoop\hadoop-common\2.6.5\hadoop-common-2.6.5.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:57:19.131
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\hadoop\hadoop-common\2.6.5\hadoop-common-2.6.5.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:57:19.135
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\hadoop\hadoop-hdfs\2.6.5\hadoop-hdfs-2.6.5.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:57:19.138
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\hadoop\hadoop-hdfs\2.6.5\hadoop-hdfs-2.6.5.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:57:19.159
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.51\bcprov-jdk15on-1.51.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:57:19.159
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.51\bcprov-jdk15on-1.51.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:57:19.169
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:57:19.170
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:57:19.173
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-compiler\2.11.0\scala-compiler-2.11.0.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:57:19.173
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-compiler\2.11.0\scala-compiler-2.11.0.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:57:19.231
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\spark\spark-catalyst_2.11\2.2.0\spark-catalyst_2.11-2.2.0.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:57:19.231
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\spark\spark-catalyst_2.11\2.2.0\spark-catalyst_2.11-2.2.0.jar
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:57:22.163
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:57:22.165
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:57:29.216
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:57:29.218
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:57:29.313
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\hadoop\hadoop-common\2.6.5\hadoop-common-2.6.5.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:57:29.325
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\hadoop\hadoop-hdfs\2.6.5\hadoop-hdfs-2.6.5.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:57:29.350
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.51\bcprov-jdk15on-1.51.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:57:29.363
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:57:29.367
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-compiler\2.11.0\scala-compiler-2.11.0.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:57:29.407
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\spark\spark-catalyst_2.11\2.2.0\spark-catalyst_2.11-2.2.0.jar
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:57:29.734
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:57:29.735
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:57:30.119
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:57:30.120
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:58:01.208
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:58:01.210
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:58:19.701
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\hadoop\hadoop-common\2.6.5\hadoop-common-2.6.5.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:58:19.710
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\hadoop\hadoop-hdfs\2.6.5\hadoop-hdfs-2.6.5.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:58:19.728
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.51\bcprov-jdk15on-1.51.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:58:19.736
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:58:19.739
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-compiler\2.11.0\scala-compiler-2.11.0.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:58:19.769
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\spark\spark-catalyst_2.11\2.2.0\spark-catalyst_2.11-2.2.0.jar
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:58:20.863
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:58:21.294
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:58:26.410
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\hadoop\hadoop-common\2.6.5\hadoop-common-2.6.5.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:58:26.491
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\hadoop\hadoop-hdfs\2.6.5\hadoop-hdfs-2.6.5.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:58:26.639
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.51\bcprov-jdk15on-1.51.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:58:26.749
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:58:26.760
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-compiler\2.11.0\scala-compiler-2.11.0.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:58:27.105
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\spark\spark-catalyst_2.11\2.2.0\spark-catalyst_2.11-2.2.0.jar
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:58:39.659
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:58:39.661
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:59:05.739
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:59:05.741
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:59:06.278
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\hadoop\hadoop-common\2.6.5\hadoop-common-2.6.5.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:59:06.287
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\hadoop\hadoop-hdfs\2.6.5\hadoop-hdfs-2.6.5.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:59:06.306
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.51\bcprov-jdk15on-1.51.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:59:06.316
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:59:06.318
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-compiler\2.11.0\scala-compiler-2.11.0.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:59:06.352
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\spark\spark-catalyst_2.11\2.2.0\spark-catalyst_2.11-2.2.0.jar
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:59:06.916
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:59:06.920
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:59:36.497
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\hadoop\hadoop-common\2.6.5\hadoop-common-2.6.5.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:59:36.510
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\hadoop\hadoop-hdfs\2.6.5\hadoop-hdfs-2.6.5.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:59:36.535
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.51\bcprov-jdk15on-1.51.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:59:36.548
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:59:36.552
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-compiler\2.11.0\scala-compiler-2.11.0.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:59:36.593
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\spark\spark-catalyst_2.11\2.2.0\spark-catalyst_2.11-2.2.0.jar
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:59:36.999
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:59:37.001
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:59:50.698
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:59:50.699
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:59:50.852
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 13:59:50.853
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:59:51.449
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\hadoop\hadoop-common\2.6.5\hadoop-common-2.6.5.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:59:51.455
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\hadoop\hadoop-hdfs\2.6.5\hadoop-hdfs-2.6.5.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:59:51.470
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.51\bcprov-jdk15on-1.51.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:59:51.477
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:59:51.479
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-compiler\2.11.0\scala-compiler-2.11.0.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:59:51.502
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\spark\spark-catalyst_2.11\2.2.0\spark-catalyst_2.11-2.2.0.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:59:53.875
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\hadoop\hadoop-common\2.6.5\hadoop-common-2.6.5.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:59:53.887
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\hadoop\hadoop-hdfs\2.6.5\hadoop-hdfs-2.6.5.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:59:53.911
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.51\bcprov-jdk15on-1.51.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:59:53.924
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:59:53.927
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-compiler\2.11.0\scala-compiler-2.11.0.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 13:59:53.966
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\spark\spark-catalyst_2.11\2.2.0\spark-catalyst_2.11-2.2.0.jar
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:01:02.335
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:01:02.336
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:01:05.117
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:01:05.118
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:01:18.544
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:01:18.545
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:01:20.678
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:01:20.679
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:01:30.537
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:01:30.539
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:01:30.582
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:01:30.584
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:01:30.907
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:01:30.955
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:01:30.956
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:01:51.195
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:01:51.197
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:01:57.261
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:01:57.262
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:02:07.673
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:02:07.676
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:02:13.923
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:02:13.926
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:02:17.277
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:02:17.280
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:02:21.278
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:02:21.279
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:02:53.942
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:02:53.943
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:03:13.027
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:03:13.028
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:03:18.681
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:03:18.743
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:03:35.529
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:03:35.530
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:03:35.572
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:03:35.573
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:03:35.813
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:03:35.982
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:03:36.488
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:03:41.083
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:03:41.085
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:03:41.292
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:03:41.293
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:03:42.030
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:03:51.468
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:04:43.779
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:04:43.780
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:04:45.581
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:04:45.582
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:04:52.283
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:04:52.285
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:04:56.069
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:04:56.070
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:07:46.562
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:07:46.563
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:07:49.313
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:07:49.314
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:08:36.328
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:08:36.329
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:08:41.952
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\hadoop\hadoop-common\2.6.5\hadoop-common-2.6.5.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:08:41.960
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\hadoop\hadoop-hdfs\2.6.5\hadoop-hdfs-2.6.5.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:08:41.975
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.51\bcprov-jdk15on-1.51.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:08:41.985
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:08:41.988
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-compiler\2.11.0\scala-compiler-2.11.0.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:08:49.047
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\hadoop\hadoop-common\2.6.5\hadoop-common-2.6.5.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:08:49.060
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\hadoop\hadoop-hdfs\2.6.5\hadoop-hdfs-2.6.5.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:08:49.081
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.51\bcprov-jdk15on-1.51.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:08:49.095
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:08:49.098
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-compiler\2.11.0\scala-compiler-2.11.0.jar
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:08:49.795
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:08:49.797
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:08:50.244
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:08:50.246
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:08:50.629
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:08:50.629
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:10:52.586
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\hadoop\hadoop-common\2.6.5\hadoop-common-2.6.5.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:10:52.597
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\hadoop\hadoop-hdfs\2.6.5\hadoop-hdfs-2.6.5.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:10:52.620
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.51\bcprov-jdk15on-1.51.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:10:52.631
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:10:52.635
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-compiler\2.11.0\scala-compiler-2.11.0.jar
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:10:52.672
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:10:52.673
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:11:21.208
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:11:21.209
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:11:34.023
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:11:34.025
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:11:34.068
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\hadoop\hadoop-common\2.6.5\hadoop-common-2.6.5.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:11:34.084
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\hadoop\hadoop-hdfs\2.6.5\hadoop-hdfs-2.6.5.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:11:34.115
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.51\bcprov-jdk15on-1.51.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:11:34.130
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:11:34.134
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-compiler\2.11.0\scala-compiler-2.11.0.jar
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:11:34.563
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:11:34.564
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:11:34.972
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:11:34.973
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:14:38.919
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\hadoop\hadoop-common\2.6.5\hadoop-common-2.6.5.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:14:38.932
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\hadoop\hadoop-hdfs\2.6.5\hadoop-hdfs-2.6.5.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:14:38.958
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.51\bcprov-jdk15on-1.51.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:14:38.971
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:14:38.975
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-compiler\2.11.0\scala-compiler-2.11.0.jar
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:14:42.880
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:14:42.882
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:14:43.389
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:14:43.390
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:14:43.838
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:14:43.839
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:15:07.299
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\hadoop\hadoop-common\2.6.5\hadoop-common-2.6.5.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:15:07.313
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\hadoop\hadoop-hdfs\2.6.5\hadoop-hdfs-2.6.5.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:15:07.338
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.51\bcprov-jdk15on-1.51.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:15:07.352
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:15:07.356
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-compiler\2.11.0\scala-compiler-2.11.0.jar
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:15:09.496
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:15:09.997
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:15:10.449
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:15:10.450
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:15:11.002
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:15:11.003
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:15:41.731
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:15:41.733
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:15:48.852
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\hadoop\hadoop-common\2.6.5\hadoop-common-2.6.5.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:15:48.878
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\hadoop\hadoop-hdfs\2.6.5\hadoop-hdfs-2.6.5.jar
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:15:48.902
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:15:48.903
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:15:48.912
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.51\bcprov-jdk15on-1.51.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:15:48.925
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:15:48.931
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-compiler\2.11.0\scala-compiler-2.11.0.jar
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:15:49.392
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:15:49.392
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:15:49.803
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:15:49.804
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:16:08.754
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:16:08.755
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:18:54.612
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:18:54.613
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:18:54.986
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\hadoop\hadoop-common\2.6.5\hadoop-common-2.6.5.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:18:55.000
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\hadoop\hadoop-hdfs\2.6.5\hadoop-hdfs-2.6.5.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:18:55.028
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.51\bcprov-jdk15on-1.51.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:18:55.042
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:18:55.046
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-compiler\2.11.0\scala-compiler-2.11.0.jar
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:18:55.135
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:18:55.136
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:18:56.169
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:18:56.169
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:20:20.736
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:20:20.737
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:20:22.618
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\hadoop\hadoop-common\2.6.5\hadoop-common-2.6.5.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:20:22.625
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\hadoop\hadoop-hdfs\2.6.5\hadoop-hdfs-2.6.5.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:20:22.642
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.51\bcprov-jdk15on-1.51.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:20:22.670
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:20:22.673
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-compiler\2.11.0\scala-compiler-2.11.0.jar
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:21:25.134
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:21:25.135
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:21:25.426
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\hadoop\hadoop-common\2.6.5\hadoop-common-2.6.5.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:21:25.439
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\apache\hadoop\hadoop-hdfs\2.6.5\hadoop-hdfs-2.6.5.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:21:25.465
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.51\bcprov-jdk15on-1.51.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:21:25.488
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 14:21:25.494
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-compiler\2.11.0\scala-compiler-2.11.0.jar
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:21:26.349
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 14:21:26.350
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2018-03-20 15:04:40.988 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 15:04:52.938
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.51\bcprov-jdk15on-1.51.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 15:04:52.964
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 15:04:52.972
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-compiler\2.11.0\scala-compiler-2.11.0.jar
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-03-20 15:04:54.321
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Karl'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 15:04:55.735
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.51\bcprov-jdk15on-1.51.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 15:04:55.982
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 15:04:55.997
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-compiler\2.11.0\scala-compiler-2.11.0.jar
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 15:06:43.739
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 15:06:43.744
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 15:06:47.847
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.51\bcprov-jdk15on-1.51.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 15:06:47.850
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.51\bcprov-jdk15on-1.51.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 15:06:47.864
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 15:06:47.869
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-compiler\2.11.0\scala-compiler-2.11.0.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 15:06:47.870
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-03-20 15:06:47.876
+!MESSAGE Invalid ZIP archive: C:\Users\Karl\.m2\repository\org\scala-lang\scala-compiler\2.11.0\scala-compiler-2.11.0.jar
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 15:06:48.077
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 15:06:48.079
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2018-03-20 15:07:29.456 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-03-20 15:07:42.267
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Karl'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 15:08:28.907
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 15:08:28.910
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 15:47:44.041
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 15:47:44.044
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 15:47:45.731
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 15:47:45.734
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 15:58:02.752
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 15:58:02.754
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 15:58:04.871
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 15:58:04.873
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 15:58:07.191
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 15:58:07.191
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 15:58:12.972
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 15:58:12.973
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 15:58:19.032
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 15:58:19.035
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 15:58:21.833
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 15:58:21.838
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 16:00:44.648
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 16:00:44.658
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2018-03-20 16:00:50.798
+!MESSAGE Unknown Host: http://download.eclipse.org/technology/m2e/releases/compositeContent.xml
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:328)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2018-03-20 16:00:50.813
+!MESSAGE Unknown Host: http://download.eclipse.org/releases/oxygen/compositeContent.xml
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:328)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2018-03-20 16:00:50.828
+!MESSAGE Unknown Host: http://download.eclipse.org/buildship/updates/e47/releases/2.x/compositeContent.xml
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:328)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2018-03-20 16:00:50.843
+!MESSAGE Unknown Host: http://www.pydev.org/updates/compositeContent.xml
+!STACK 0
+java.net.UnknownHostException: www.pydev.org
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:328)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-03-20 16:00:51.374
+!MESSAGE Connection to http://www.ai.sri.com/~spark/eclipse/site.xml failed on www.ai.sri.com. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: www.ai.sri.com
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2018-03-20 16:00:51.615
+!MESSAGE Unknown Host: http://www.ai.sri.com/~spark/eclipse/site.xml
+!STACK 0
+java.net.UnknownHostException: www.ai.sri.com
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2018-03-20 16:00:51.624
+!MESSAGE Unknown Host: http://download.eclipse.org/eclipse/updates/4.7/compositeContent.xml
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:328)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2018-03-20 16:00:55.545
+!MESSAGE Unknown Host: http://download.eclipse.org/oomph/updates/milestone/latest/compositeContent.xml
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:328)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 16:01:08.456
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 16:01:08.457
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 16:01:15.032
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 16:01:15.034
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 16:01:25.437
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 16:01:25.439
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 16:01:32.767
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 16:01:32.770
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 16:02:02.301
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 16:02:02.304
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 16:02:12.432
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 16:02:12.435
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 16:02:54.599
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 16:02:54.602
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 16:02:56.110
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 16:02:56.111
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 16:33:57.866
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 16:33:57.869
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 16:33:57.876
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-20 16:33:57.878
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2018-03-22 17:26:38.084 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-03-22 17:27:19.543
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Karl'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

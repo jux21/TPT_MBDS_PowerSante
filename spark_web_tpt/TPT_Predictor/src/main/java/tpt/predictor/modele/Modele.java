@@ -2,8 +2,11 @@ package tpt.predictor.modele;
 
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaSparkContext;
+import org.bson.Document;
 
 import com.mongodb.MongoClientURI;
+import com.mongodb.spark.MongoSpark;
+import com.mongodb.spark.rdd.api.java.JavaMongoRDD;
 
 public class Modele {
 
@@ -25,7 +28,14 @@ public class Modele {
 				.set("spark.mongodb.output.uri", uriS);
 
 		JavaSparkContext jsc = new JavaSparkContext(conf);
-		System.out.println("hi");
+		JavaMongoRDD<Document> rdd = MongoSpark.load(jsc);
+		/* End Example **************************************************/
+
+		// Analyze data from MongoDB
+		System.out.println(rdd.count());
+		System.out.println(rdd.first().toJson());
+		
+	
 	}
 
 	/**

@@ -10,6 +10,8 @@ import org.apache.spark.sql.functions._
   */
 object NewAppTestColabo {
 
+  NewAppTestColabo
+
   def main(args: Array[String]) {
 
     var NOTRE_VISITOR = "'5539fc7691e02ac7152e43230632c3f581588703'";
