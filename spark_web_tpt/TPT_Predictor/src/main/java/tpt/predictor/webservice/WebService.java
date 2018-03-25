@@ -39,7 +39,7 @@ public class WebService {
 				System.out.println("\t" + k + ":" + req.queryParams(k));
 			});
 
-			String predicted = "PRODUIT1";
+			String predicted = controler.getPrediction(req.queryParams());
 
 			return predicted;
 		});

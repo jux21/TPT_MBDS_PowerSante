@@ -1,5 +1,7 @@
 package tpt.predictor.controler;
 
+import java.util.Set;
+
 import tpt.predictor.modele.Modele;
 import tpt.predictor.webservice.WebService;
 
@@ -17,5 +19,11 @@ public class Controler {
 		
 		// Lancement du Web Service
 		webService = new WebService(this);
+	}
+
+	public String getPrediction(Set<String> queryParams) {
+		modele.predict(queryParams);
+		
+		return "Note de Barnini en Ribouchon";
 	}
 }
