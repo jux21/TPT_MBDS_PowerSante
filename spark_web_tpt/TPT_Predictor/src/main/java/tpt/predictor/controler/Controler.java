@@ -21,9 +21,6 @@ public class Controler {
 		// Lancement du Web Service
 		webService = new WebService(this);
 
-		Predictor p = new Predictor();
-		System.out.println(p.process());
-
 	}
 
 	public String getPrediction(Set<String> queryParams) {

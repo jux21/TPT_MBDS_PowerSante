@@ -9,7 +9,7 @@ import tpt.predictor.controler.Controler;
 
 public class WebService {
 
-	/** Port utilisé par le WebService */
+	/** Port utilise par le WebService */
 	private static final int PORT = 8899;
 
 	/** Controleur */
@@ -30,10 +30,10 @@ public class WebService {
 		// Change le port
 		port(PORT);
 
-		// On écoute sur localhost:8899/predict
+		// On ecoute sur localhost:8899/predict
 		get("/predict", (req, res) -> {
 
-			System.out.println("Paramètre : " + req.queryParams());
+			System.out.println("Parametre : " + req.queryParams());
 			System.out.println("Leurs valeurs : ");
 			req.queryParams().forEach((k) -> {
 				System.out.println("\t" + k + ":" + req.queryParams(k));

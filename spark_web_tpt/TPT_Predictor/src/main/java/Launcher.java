@@ -6,7 +6,6 @@ import tpt.predictor.modele.Modele;
 public class Launcher {
 
 
-
     public static void main(String[] args) {
 
         LogManager.getLogger("org").setLevel(Level.OFF);
