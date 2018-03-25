@@ -10,15 +10,20 @@ public class Controler {
 	/** WebService */
 	private WebService webService;
 
-	/** Modèle de données */
+	/** Modï¿½le de donnï¿½es */
 	private Modele modele;
 
 	public Controler() {
-		// Initialisation du modèle de données
+
+		// Initialisation du modï¿½le de donnï¿½es
 		modele = new Modele();
-		
+
 		// Lancement du Web Service
 		webService = new WebService(this);
+
+		Predictor p = new Predictor();
+		System.out.println(p.process());
+
 	}
 
 	public String getPrediction(Set<String> queryParams) {
