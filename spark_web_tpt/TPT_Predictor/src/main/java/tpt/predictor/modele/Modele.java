@@ -25,12 +25,12 @@ public class Modele {
 	private Dataset<Row> customersDs;
 
 	public Modele() {
-		// Initialisation du modèle de données
+		// Initialisation du modï¿½le de donnï¿½es
 		initModel();
 	}
 
 	/**
-	 * Initialisation du modèle de données
+	 * Initialisation du modï¿½le de donnï¿½es
 	 */
 	private void initModel() {
 
@@ -69,17 +69,18 @@ public class Modele {
 	}
 
 	/**
-	 * Retourne une prédiction du parcours de l'utilisateur
+	 * Retourne une prï¿½diction du parcours de l'utilisateur
 	 * 
 	 * 
 	 * @param queryParams
 	 */
 	public void predict(Set<String> queryParams) {
+
 		System.out.println("PREDICT");
 		parcoursDs.show();
 		System.out.println(productsDs.count());
 		//
-		Dataset<Row> mostViewedProducts = parcoursDs.groupBy("product_id").agg(count("product_id").as("Nb vues"))
+		/*Dataset<Row> mostViewedProducts = parcoursDs.groupBy("product_id").agg(count("product_id").as("Nb vues"))
 				.orderBy(desc("Nb vues"));
 		mostViewedProducts.cache();
 
@@ -92,7 +93,7 @@ public class Modele {
 		Dataset<Row> mostViewedCategories = productsDs.select("product_id", "category_id")
 				.join(mostViewedProducts, productsDs.col("product_id").equalTo(mostViewedProducts.col("product_id")))
 				.orderBy(desc("Nb vues"));
-		mostViewedCategories.show();
+		mostViewedCategories.show();*/
 
 	}
 }
