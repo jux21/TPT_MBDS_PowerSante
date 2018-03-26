@@ -1,7 +1,6 @@
 import org.apache.log4j.Level;
 import org.apache.log4j.LogManager;
 import tpt.predictor.controler.Controler;
-import tpt.predictor.modele.Modele;
 
 public class Launcher {
 
