@@ -9,39 +9,48 @@ import tpt.predictor.controler.Controler;
 
 public class WebService {
 
-	/** Port utilisé par le WebService */
-	private static final int PORT = 8899;
+    /**
+     * Port utilise par le WebService
+     */
+    private static final int PORT = 8899;
 
-	/** Controleur */
-	private Controler controler;
+    /**
+     * Controleur
+     */
+    private Controler controler;
 
-	public WebService(Controler controler) {
-		// Lien vers le controleur
-		this.controler = controler;
+    public WebService(Controler controler) {
+        // Lien vers le controleur
+        this.controler = controler;
 
-		// Lancement du WebService
-		lancementWebService();
-	}
+        // Lancement du WebService
+        lancementWebService();
+    }
 
-	private void lancementWebService() {
-		// Pour log4j
-		BasicConfigurator.configure();
+    private void lancementWebService() {
+        // Pour log4j
+        BasicConfigurator.configure();
 
-		// Change le port
-		port(PORT);
+        // Change le port
+        port(PORT);
 
-		// On écoute sur localhost:8899/predict
-		get("/predict", (req, res) -> {
+        // On ecoute sur localhost:8899/predict
+        get("/predict", (req, res) -> {
 
-			System.out.println("Paramètre : " + req.queryParams());
-			System.out.println("Leurs valeurs : ");
-			req.queryParams().forEach((k) -> {
-				System.out.println("\t" + k + ":" + req.queryParams(k));
-			});
+            System.out.println("Parametre : " + req.queryParams());
+            System.out.println("Leurs valeurs : ");
 
-			String predicted = controler.getPrediction(req.queryParams());
+            final boolean isCustomer = false;
+            req.queryParams().forEach((k) -> {
+                System.out.println("\t" + k + ":" + req.queryParams(k));
+            });
 
-			return predicted;
-		});
-	}
+            String isConsumer = req.queryParams("isCustomer");
+            String timestamp = req.queryParams("timestamp");
+
+            String predicted = controler.getPrediction(isConsumer, timestamp);
+
+            return predicted;
+        });
+    }
 }
